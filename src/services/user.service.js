@@ -10,6 +10,8 @@ export const registerUser = async (body) => {
 };
 
 
+
+
 export const getUserByUsername = async (username) => {
   try {
     // Find a user by username in the database
