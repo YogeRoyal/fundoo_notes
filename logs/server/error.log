@@ -1,0 +1,837 @@
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:40:54.950Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T09:45:41.398Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone_no" length must be less than or equal to 12 characters long 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:12:40.425Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 107
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:14:52.707Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone_no" length must be less than or equal to 10 characters long 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:14:59.620Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:15:24.719Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.loginUser is not a function
+    at _callee4$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:72:36)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at loginUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:69:23)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T10:38:52.356Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T11:41:06.233Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at registerUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:11:26)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Dec 15 2023 11:20:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":241636.453},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18733969,"external":21800662,"heapTotal":94257152,"heapUsed":47431368,"rss":130904064},"pid":4504,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:31:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at registerUser (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:11:26)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at newUserValidator (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\validators\\/user.validator.js:18:5)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js:231:16)\n    at done (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:514:28)\n    at IncomingMessage.emit (node:domain:488:12)\n    at endReadableNT (node:internal/streams/readable:1589:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-12-15T05:50:24.808Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":31,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":26,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"registerUser","line":11,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\validators\\/user.validator.js","function":"newUserValidator","line":18,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":488,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1589,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at registerUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:11:26)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Dec 15 2023 11:21:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":241698.671},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18263318,"external":21330011,"heapTotal":90374144,"heapUsed":45351032,"rss":126713856},"pid":14112,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:31:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at registerUser (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:11:26)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at newUserValidator (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\validators\\/user.validator.js:18:5)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js:231:16)\n    at done (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:514:28)\n    at IncomingMessage.emit (node:domain:488:12)\n    at endReadableNT (node:internal/streams/readable:1589:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-12-15T05:51:27.020Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":31,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":26,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"registerUser","line":11,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\validators\\/user.validator.js","function":"newUserValidator","line":18,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":488,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1589,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "phone_no" length must be less than or equal to 10 characters long 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:53:39.204Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:05:15.478Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:05:45.835Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:36:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":242593.078},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18272965,"external":21338447,"heapTotal":48431104,"heapUsed":45812200,"rss":86196224},"pid":10004,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:31:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T06:06:21.429Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":31,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:40:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":242836.765},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18265215,"external":21331908,"heapTotal":90374144,"heapUsed":46133296,"rss":126914560},"pid":6108,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:31:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T06:10:25.111Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":31,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 11:41:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":242881.296},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18742248,"external":21810346,"heapTotal":93470720,"heapUsed":48099128,"rss":130736128},"pid":13948,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:31:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T06:11:09.655Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":31,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:44:48)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:28:57.051Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:44:48)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:30:05.634Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:45:48)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:32:06.508Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:32:25.705Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:34:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 14:02:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":251386},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18274046,"external":21339528,"heapTotal":49160192,"heapUsed":47771216,"rss":88002560},"pid":3864,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:34:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T08:32:54.362Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":34,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:34:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 14:03:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":251440.14},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18264664,"external":21332762,"heapTotal":91103232,"heapUsed":49168352,"rss":128024576},"pid":14588,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:34:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T08:33:48.499Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":34,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:34:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 14:04:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":251486.796},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18759856,"external":21827954,"heapTotal":93175808,"heapUsed":54595592,"rss":131080192},"pid":972,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:34:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T08:34:35.144Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":34,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:35:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 14:05:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":251561.078},"process":{"argv":["node","C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\index.js"],"cwd":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18759982,"external":21828080,"heapTotal":93179904,"heapUsed":54921912,"rss":130895872},"pid":8240,"uid":null,"version":"v20.10.0"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js:35:13)\n    at tryCatch (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T08:35:49.430Z","trace":[{"column":13,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":35,"method":null,"native":false},{"column":16,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":74,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\yogesh\\backend\\fundoo-notes\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:47:10.547Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:03:12.260Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:03:12.295Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:03:57.161Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:03:57.166Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:04:33.975Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:04:33.977Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:05:27.737Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:05:27.747Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:07:34.143Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:07:34.151Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.createUser is not a function
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:16:39)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at registerUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:12:26)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:13:55.445Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 45
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:01.706Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:12.791Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUserByUsername is not a function
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:61:40)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at loginUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:55:23)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:24.520Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUserByUsername is not a function
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:61:40)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at loginUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:55:23)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:48.017Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:27:17.925Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:30:37.024Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:30:41.169Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:31:46.188Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:32:40.798Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:35:10.619Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:35:14.049Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:35:15.775Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:37:54.663Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:19:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:39:03.403Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:40:24.077Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:19:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:40:37.920Z"}

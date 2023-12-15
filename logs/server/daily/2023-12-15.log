@@ -1,0 +1,697 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:44:06.787Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:44:06.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:46:49.108Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:46:49.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:49:24.567Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:49:24.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:50:11.627Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:50:11.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:51:21.864Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:51:21.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:52:12.481Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:52:12.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:53:31.084Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:53:31.108Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone_no" length must be less than or equal to 10 characters long 
+    url - /api/v1/users/add/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T05:53:39.204Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:56:55.470Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:56:55.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:59:35.000Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:59:35.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T05:59:56.526Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T05:59:56.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:01:42.054Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:01:42.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:02:13.548Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:02:13.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:02:48.247Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:02:48.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:04:27.953Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:04:28.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:05:12.352Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:05:12.412Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:05:15.478Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T06:05:45.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:09:24.556Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:09:24.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:10:21.889Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:10:21.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:11:05.102Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:11:05.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:12:03.568Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:12:03.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:15:18.780Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:15:18.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:15:41.500Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:15:41.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:16:00.040Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:16:00.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:53:16.650Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:53:16.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T06:54:03.980Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:54:04.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:28:11.855Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:28:11.884Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:44:48)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:28:57.051Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:44:48)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:30:05.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:31:56.574Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:31:56.600Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:45:48)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:32:06.508Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:32:25.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:33:45.186Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:33:45.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:34:31.380Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:34:31.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:35:47.143Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:35:47.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:40:47.142Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:40:47.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:46:40.710Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:46:40.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:46:55.212Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:46:55.250Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T08:47:10.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:48:16.981Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:48:17.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:49:00.077Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:49:00.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:50:47.891Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:50:47.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:51:14.531Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:51:14.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:51:55.333Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:51:55.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:54:39.499Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:54:39.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:56:11.808Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:56:11.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:56:36.702Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:56:36.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:56:52.784Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:56:52.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:57:38.645Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:57:38.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T08:59:29.116Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:59:29.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:01:47.609Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:01:47.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:02:14.811Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:02:14.840Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:03:12.260Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:03:12.295Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:03:57.161Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:03:57.166Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:04:33.975Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:04:33.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:05:02.860Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:05:02.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:05:12.961Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:05:12.987Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:05:27.737Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:05:27.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:07:23.669Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:07:23.696Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-12-15T09:07:34.143Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:480:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:07:34.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:09:42.391Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:09:42.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:10:08.487Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:10:08.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:11:02.614Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:11:02.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:13:27.490Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:13:27.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:13:38.690Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:13:38.711Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.createUser is not a function
+    at _callee$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:16:39)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at registerUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:12:26)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:13:55.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:15:32.372Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:15:32.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:19:47.686Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:19:47.711Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 45
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:01.706Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:12.791Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUserByUsername is not a function
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:61:40)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at loginUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:55:23)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:24.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:20:44.156Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:20:44.180Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUserByUsername is not a function
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:61:40)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at loginUser (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\controllers\/user.controller.js:55:23)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:20:48.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:22:59.383Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:22:59.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:23:06.432Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:23:06.453Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:27:17.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:30:22.822Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:30:22.845Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:30:37.024Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:30:41.169Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:31:46.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:32:29.505Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:32:29.528Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:31:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:32:40.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:33:21.547Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:33:21.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:35:02.810Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:35:02.834Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:35:10.619Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:35:14.049Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:35:15.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:35:53.857Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:35:53.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:35:58.641Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:35:58.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:36:28.026Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:36:28.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:37:51.831Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:37:51.854Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:21:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:37:54.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:38:34.528Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:38:34.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T09:38:53.647Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T09:38:53.673Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:19:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:39:03.403Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:40:24.077Z"}
+error: 
+    status - 500 
+    message - Error: User not found
+    at _callee2$ (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\src\services\/user.service.js:19:13)
+    at tryCatch (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\yogesh\backend\fundoo-notes\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-15T09:40:37.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-15T10:01:03.093Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T10:01:03.115Z"}
